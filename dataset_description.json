@@ -1,0 +1,22 @@
+{
+  "Name": "Diffuse predictions stabilize and reshape neural code during memory encoding",
+  "ReferencesAndLinks": [
+    "https://osf.io/8evwh/"
+  ],
+  "BIDSVersion": "v1.2.1",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Nursena Ataseven",
+    "Sahcan Ozdemir",
+    "Wouter Kruijne",
+    "Daniel Schneider",
+    "Elkan G. Akyurek"
+  ],
+  "HEDVersion": "8.1.0",
+  "GeneratedBy": [
+    {
+      "Name": "bids-matlab-tools",
+      "Version": "10.2"
+    }
+  ]
+}
