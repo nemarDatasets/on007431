@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on007431",
-  "source": "openneuro",
-  "source_id": "ds007431",
+  "pipeline_stage": "enriched",
   "title": "Diffuse predictions stabilize and reshape neural code during memory encoding",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Nursena Ataseven": {},
     "Sahcan Ozdemir": {},
@@ -11,21 +11,73 @@
     "Daniel Schneider": {},
     "Elkan G. Akyurek": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007431.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007431",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007431",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v1.2.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset investigates how predictive information shapes neural representations during memory encoding. Participants performed an orientation memory task where memorized gratings were preceded by color cues that either predicted the range of possible orientations (predictive condition) or provided no information (non-predictive condition). The study examines how diffuse predictions stabilize and reorganize neural coding mechanisms during the encoding of visual memory items.",
+  "methods_description": "Participants performed an orientation discrimination task where they judged whether a probe grating was rotated clockwise or counterclockwise relative to a memorized orientation. Memory items were preceded by central color cues (red, green, or blue). In predictive trials, two colors cued non-overlapping 90° segments of possible orientations. In non-predictive trials, a third color signaled the item could have any orientation. Preprocessing and analysis scripts are available on OSF.",
+  "keywords": [
+    {
+      "term": "memory encoding"
+    },
+    {
+      "term": "visual prediction"
+    },
+    {
+      "term": "neural coding"
+    },
+    {
+      "term": "orientation discrimination"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "predictive cues"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "visual attention"
+    },
+    {
+      "term": "color cues"
+    },
+    {
+      "term": "probe grating"
+    },
+    {
+      "term": "predictive coding"
+    }
+  ],
+  "source_hash": "a6cdfb4e44e99378029e1448f1eeeea9b1c4ea9090850b7fa6f7d8421ef83e65"
 }
