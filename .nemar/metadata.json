@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Diffuse predictions stabilize and reshape neural code during memory encoding",
+  "description": "This dataset contains EEG recordings from a memory encoding task in which participants judged the rotation of probe gratings relative to memorized orientations. The experimental design manipulates predictability through color cues that either constrain the range of possible orientations (predictive condition) or provide no constraint (non-predictive condition). The study investigates how diffuse predictions stabilize and reshape neural representations during memory encoding.",
+  "methods_description": "Participants performed an orientation memory task with color-cued predictability manipulation. Memory items were preceded by central color cues (red, green, or blue). In predictive trials, two colors cued non-overlapping 90° orientation segments, constraining possible item orientations. In non-predictive trials, a third color signaled unconstrained orientations. Participants judged whether probe gratings were rotated clockwise or counterclockwise relative to memorized orientations.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,40 +13,10 @@
     "Daniel Schneider": {},
     "Elkan G. Akyurek": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds007431.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on007431",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on007431",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv"
-  ],
-  "description": "This dataset investigates how predictive information shapes neural representations during memory encoding. Participants performed an orientation memory task where memorized gratings were preceded by color cues that either predicted the range of possible orientations (predictive condition) or provided no information (non-predictive condition). The study examines how diffuse predictions stabilize and reorganize neural coding mechanisms during the encoding of visual memory items.",
-  "methods_description": "Participants performed an orientation discrimination task where they judged whether a probe grating was rotated clockwise or counterclockwise relative to a memorized orientation. Memory items were preceded by central color cues (red, green, or blue). In predictive trials, two colors cued non-overlapping 90° segments of possible orientations. In non-predictive trials, a third color signaled the item could have any orientation. Preprocessing and analysis scripts are available on OSF.",
   "keywords": [
+    {
+      "term": "EEG"
+    },
     {
       "term": "memory encoding"
     },
@@ -55,29 +27,43 @@
       "term": "neural coding"
     },
     {
-      "term": "orientation discrimination"
+      "term": "orientation perception"
     },
     {
-      "term": "EEG"
-    },
-    {
-      "term": "predictive cues"
-    },
-    {
-      "term": "working memory"
-    },
-    {
-      "term": "visual attention"
-    },
-    {
-      "term": "color cues"
-    },
-    {
-      "term": "probe grating"
-    },
-    {
-      "term": "predictive coding"
+      "term": "predictive processing"
     }
   ],
-  "source_hash": "a6cdfb4e44e99378029e1448f1eeeea9b1c4ea9090850b7fa6f7d8421ef83e65"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on007431",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007431",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007431.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "155.2 GB (95 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "73fd6f031c5a9d754de516fd52d26e1512d10b7dd6a59d0401db942640dd179a"
 }
