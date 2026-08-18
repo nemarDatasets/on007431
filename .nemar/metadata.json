@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Diffuse predictions stabilize and reshape neural code during memory encoding",
-  "description": "This dataset contains EEG recordings from a memory encoding task in which participants judged the rotation of probe gratings relative to memorized orientations. The experimental design manipulates predictability through color cues that either constrain the range of possible orientations (predictive condition) or provide no constraint (non-predictive condition). The study investigates how diffuse predictions stabilize and reshape neural representations during memory encoding.",
-  "methods_description": "Participants performed an orientation memory task with color-cued predictability manipulation. Memory items were preceded by central color cues (red, green, or blue). In predictive trials, two colors cued non-overlapping 90° orientation segments, constraining possible item orientations. In non-predictive trials, a third color signaled unconstrained orientations. Participants judged whether probe gratings were rotated clockwise or counterclockwise relative to memorized orientations.",
+  "description": "This EEG dataset investigates how diffuse (categorical) predictions about stimulus orientation shape neural representations during memory encoding. Participants performed an orientation working-memory task in which a central color cue indicated whether an upcoming grating's orientation was drawn from a predictable 90° range or was fully unpredictable, and later judged whether a probe was rotated clockwise or counterclockwise relative to the memorized orientation. The study examines how predictive information stabilizes and reshapes neural codes for encoded visual features.",
+  "methods_description": "Participants viewed a central color cue (red, green, or blue) preceding a memory grating. Two colors were predictive, cueing one of two non-overlapping 90° orientation ranges from which the grating orientation was sampled, while a third non-predictive color indicated the orientation could be anything. After a delay, participants judged whether a probe grating was rotated clockwise or counterclockwise relative to the memorized orientation, while EEG was recorded.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,19 +18,21 @@
       "term": "EEG"
     },
     {
+      "term": "working memory"
+    },
+    {
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+    },
+    {
+      "term": "prediction"
+    },
+    {
+      "term": "orientation discrimination"
+    },
+    {
       "term": "memory encoding"
-    },
-    {
-      "term": "visual prediction"
-    },
-    {
-      "term": "neural coding"
-    },
-    {
-      "term": "orientation perception"
-    },
-    {
-      "term": "predictive processing"
     }
   ],
   "related_identifiers": [
